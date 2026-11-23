@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKERHUB_USER = "jayanthnj"
         IMAGE_NAME     = "${DOCKERHUB_USER}/cicd-demo-api"
-        DOCKER_CREDS   = credentials('dockerhub-creds')
+        DOCKER_CREDS   = credentials('my-fourth-project-creds')
     }
 
     stages {
